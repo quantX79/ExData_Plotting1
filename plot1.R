@@ -1,4 +1,3 @@
-
 # Load data
 obsData <- read.delim('household_power_consumption.txt',header = TRUE,sep=';',na.strings='?')
 obsData$DateFormat <- as.Date(obsData$Date,'%d/%m/%Y')
